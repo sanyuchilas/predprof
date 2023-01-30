@@ -1,0 +1,12 @@
+openapi: 3.0.3
+info:
+  title: REST API
+  version: 0.0.14
+paths:
+  /:
+    get:
+      tags: ['page']
+      summary: SPA
+      operationId: getMainPage
+      responses:
+        200:
